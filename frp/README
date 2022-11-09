@@ -1,0 +1,18 @@
+Here would have two files if Moralis v1 was still active:
+frpc -> exec
+frpc.ini -> config files
+
+
+After that, we come to this folder and we run the next commands
+on the terminal: ./frpc -c frpc.ini
+To link our hardhat blockchain to our Moralis server
+
+
+Other way would be interact with the Moralis admin cli
+ - 1.yarn global add moralis-admin-cli
+ - 2.edit jackage.son with:
+  "moralis:sync": "moralis-admin-cli connect-local-devchain --chain hardhat --moralisSubdomain + "OuMoralisServerUrl" --frpcPath ./frp/frpc"
+ - 3. Add moralisApiKey & moralisApisecret to .env
+
+
+ 
