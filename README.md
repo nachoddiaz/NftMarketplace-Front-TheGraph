@@ -8,4 +8,9 @@
 
 3. Withdraw income
     - 3.1 if one of your listed NFTs has been sold -> withdraw proceeds
+
+
+A. Instead of reading the evens from Moralis, 
+    - A.1 Index them with TheGraph
+    - A.2 Read from the graph
     

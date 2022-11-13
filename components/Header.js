@@ -1,4 +1,4 @@
-import { ConnectButton } from "web3uikit"
+/* import { ConnectButton } from "web3uikit" */
 import Link from "next/link"
 
 export default function Header() {
@@ -15,7 +15,7 @@ export default function Header() {
                 <Link href={"/withdraw-income"}>
                     <a>Withdraw Sales</a>
                 </Link>
-                <ConnectButton moralisAuth={false} />
+                {/* <ConnectButton moralisAuth={false} /> */}
             </div>
             
         </nav>

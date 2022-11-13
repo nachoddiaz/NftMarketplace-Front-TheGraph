@@ -1,11 +1,12 @@
 import { useEffect, useState } from "react"
 import { useWeb3Contract, useMoralis } from "react-moralis"
-import nftMarketplaceAbi from "constants/abi.jsonNftMarketplace"
-import nftAbi from "constants/abi.jsonBasicNFT"
+import nftMarketplaceAbi from "/constants/abi.jsonNftMarketplace"
+import nftAbi from "/constants/abi.jsonBasicNFT"
 import { Image } from "next/image"
 import { Card, useNotification } from "web3uikit"
 import { ethers } from "ethers"
 import UpdateListingModal from "./UpdateListingModal"
+
 
 //To show correctly the NFT in the front
 export default function NFTBox({ price, nftAddress, tokenId, marketplaceAddress, seller }) {
